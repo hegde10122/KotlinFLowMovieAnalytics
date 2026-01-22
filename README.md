@@ -4,7 +4,7 @@ Stream 35,000 movie plots from a CSV file, process them CPU-intensively (tokeniz
 ## Step 1: Dataset Sanity Validation
 - Ensure the CSV file can be parsed correctly by verifying headers, row count, 
   and the integrity of quoted plot text before building the streaming pipeline.
-- src/main/kotlin/data/parser/DatasetSanityCheck.kt
+- src/main/kotlin/data/validation/CsvDatasetValidator.kt
 - Validation artifacts that describe dataset structure belong to the data layer 
   and are intentionally excluded from the domain model.
 
